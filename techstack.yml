@@ -1,0 +1,153 @@
+repo_name: todaypp/cypress-example-todomvc
+report_id: 330cef074df2e509b8d2b7894381ecb9
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-23T13:15:03+00:00'
+requested_by: sevkioruc
+provider: github
+branch: master
+detected_tools_count: 11
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/todaypp/cypress-example-todomvc
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  version: 3.9.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/todaypp/cypress-example-todomvc/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2020-10-08 04:57:36.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 0.13.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/todaypp/cypress-example-todomvc/blob/master/package-lock.json
+  detection_source: js/app.jsx
+  last_updated_by: Brian Mann
+  last_updated_on: 2015-08-14 17:09:25.000000000 Z
+- name: Cypress
+  description: When testing is easy, developers build better things faster and with
+    confidence.
+  website_url: https://www.cypress.io/
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png
+  detection_source_url: https://github.com/todaypp/cypress-example-todomvc/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-11-16 14:21:06.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/todaypp/cypress-example-todomvc/blob/master/.eslintrc
+  detection_source: ".eslintrc"
+  last_updated_by: Gleb Bahmutov
+  last_updated_on: 2017-12-21 15:20:56.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/todaypp/cypress-example-todomvc
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/todaypp/cypress-example-todomvc/blob/master/.github/workflows/main.yml
+  detection_source: ".github/workflows/main.yml"
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-01-05 10:58:36.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/todaypp/cypress-example-todomvc/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Mann
+  last_updated_on: 2015-08-14 17:09:39.000000000 Z
+- name: eslint-plugin-mocha
+  description: Eslint rules for mocha
+  package_url: https://www.npmjs.com/eslint-plugin-mocha
+  version: 5.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16194/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/todaypp/cypress-example-todomvc/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gleb Bahmutov
+  last_updated_on: 2020-10-30 13:23:03.000000000 Z
+- name: http-server
+  description: A simple zero-configuration command-line http server
+  package_url: https://www.npmjs.com/http-server
+  version: 0.12.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16118/default_f905d9556a0330de59b502a579c1f5c4be2b48bf.png
+  detection_source_url: https://github.com/todaypp/cypress-example-todomvc/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2020-10-09 03:11:58.000000000 Z
+- name: npm-run-all
+  description: A CLI tool to run multiple npm-scripts in parallel or sequential
+  package_url: https://www.npmjs.com/npm-run-all
+  version: 4.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/todaypp/cypress-example-todomvc/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gleb Bahmutov
+  last_updated_on: 2019-03-04 19:58:43.000000000 Z
